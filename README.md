@@ -11,3 +11,4 @@ cd ubuntu-font
 sudo make install
 ```
 
+A PDF file may be downloaded [here](http://mc.yolo-swag.com/resume.pdf)
