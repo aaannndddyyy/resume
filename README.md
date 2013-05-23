@@ -1,7 +1,7 @@
 Resume
 ======
 
-My resume in LaTeX
+My resume in LaTeX.
 
 Requires the Ubuntu font LaTeX package, provided as a submodule.
 
@@ -11,4 +11,4 @@ cd ubuntu-font
 sudo make install
 ```
 
-A PDF file may be downloaded [here](http://mc.yolo-swag.com/resume.pdf)
+A PDF file may be downloaded [here](http://mc.yolo-swag.com/resume.pdf).
