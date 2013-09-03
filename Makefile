@@ -1,3 +1,2 @@
 all: 
-	latex resume.tex
-	dvipdf resume.pdf
+	pdflatex resume.tex
