@@ -28,12 +28,6 @@
  - Did game/hardware testing for Microsoft (as a contractor through Volt) 
  according to their procedures, under NDA
 
-##### Dominos - Delivery Expert
-
- - August 2012 thru July 2013
- - Delivered pizzas to customer's houses
- - Helped in the order taking and makeline procedures
-
 ##### Eastern Washington University - Paper Grader
 
  - October 2012 thru December 2012
@@ -45,6 +39,14 @@
  - June 2012 thru Sept 2012
  - Did game/hardware testing for Microsoft (as a contractor through Volt) 
  according to their procedures, under NDA
+
+#### Other Employment
+
+##### Dominos - Delivery Expert
+
+ - August 2012 thru July 2013
+ - Delivered pizzas to customer's houses
+ - Helped in the order taking and makeline procedures
 
 ##### QFC (Kroger) - Courtesy Clerk
 
