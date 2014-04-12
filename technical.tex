@@ -1,0 +1,93 @@
+\documentclass[twocolumn]{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage[letterpaper]{geometry}
+
+\usepackage{setspace}
+
+% An easier to read font
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[normalem]{ulem}
+
+% Set margins
+\geometry{top=1.0in, bottom=1.0in, left=1.0in, right=1.0in}
+
+\renewcommand{\thesection}{}
+\renewcommand{\thesubsection}{}
+\renewcommand{\thesubsubsection}{}
+
+% Title, Author, Date
+\title{Technical Resume}
+\author{Sam Dodrill \textless{}sam@dodrill.net\textgreater{}}
+\date{}
+
+\begin{document}
+
+% Munge the title for Two-column
+\twocolumn[
+ \begin{@twocolumnfalse}
+  \maketitle
+   \end{@twocolumnfalse}
+]
+
+\section{Open Source Projects}
+
+\subsection{Cod}
+
+Cod is an extended services package for IRC networks using TS6 family IRC daemons. It is designed to be very modular, allowing some networks to only enable what they will need, but also to handle some things normally handled by channel bots. This works symbiotically with Elemental-IRCd.
+
+Over the last 5 months of writing this project mostly from scratch (some module code is recycled from other projects or has turned into other projects), I have learned more about program design and modular management. I also learned how to properly use \texttt{select()} and made Cod asynchronous without affecting too many other parts of the core.
+
+\subsection{Elemental-IRCd}
+
+Elemental-IRCd is a fork of the (now defunct) ShadowIRCd project. It is also a fork of Atheme's Charybdis irc daemon with more user-friendly features. Most of these things are security patches, network staff usability features, patches that make centralized management simpler and extra status levels in channels; but the resulting core changes mean it needs to be its own project.
+
+At one point I wrote up something to the Full-Disclosure mailing list about a bug I found in its upstream ShadowIRCd, a temporary fix, and why the bug could cause the entire network to segfault if a malicious user sent a specially crafted SASL authentication session. You can find my writeup on it, including full exploit code and debugging information on the Full-Disclosure archive: http://seclists.org/fulldisclosure/2014/Mar/320 Since the full-disclosure email was sent, a full patch has been contributed and accepted into the main tree.
+
+\subsection{ircmess}
+
+When writing Cod I wrote a custom IRC line parser. After realizing it would be useful in my other projects, I packaged it up in the cheese shop. You can install it with \texttt{pip install ircmess} or see more information about it here: https://github.com/lyska/ircmess
+
+\section{Testing}
+
+\subsection{Microsoft}
+
+I have worked for a year with Volt doing hardware testing for Microsoft. I am currently under a strict NDA because of this, but I am allowed to tell you it was for the Xbox series of game consoles.
+
+\section{Academics}
+
+\subsection{Classes Taken}
+
+\subsubsection{Eastern Washington University}
+
+\begin{tabular}{| l | r |}
+    Class & Date \\
+    \hline
+    Algorithms & Winter 2012 \\
+    C \& Unix & Spring 2012 \\
+    Data Structures & Spring 2012 \\
+    Discrete Mathematics & Winter 2011 \\
+    Java I \& II & Fall/Winter 2010 \\
+\end{tabular}
+
+\section{Employment History}
+
+\begin{tabular}{| l | l | r | l |}
+    Company & Role & Dates \\
+    \hline
+    Symplicity & Junior SA & 11/13-01/14 \\
+    Microsoft & Quality Assurance & 06/12-09/13
+\end{tabular}
+
+\section{Other Honors}
+
+\begin{tabular}{| l | r |}
+    Description & Date \\ \hline
+    Lead of Programming Team & 9/10-3/11 \\ 
+    for HS Robotics Team & \\ \hline
+    Personal Server Administration & 06/11-  \\ \hline
+    Beta Tester for Google Chrome OS & 12/11-06/12 \\ \hline
+    Video Encoding & 01/12- \\
+\end{tabular}
+
+\end{document}
