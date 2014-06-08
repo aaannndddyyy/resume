@@ -32,6 +32,70 @@
 
 \section{Open Source Projects}
 
+\subsection{Duta}
+
+Duta is an attempt to create a more modern, scalable standard for IRC client communications.  This is a new client protocol designed to replace the standard RFC 1459 protocol while still maintaining compatibility with the older protocol via server links. The general format is identical to the TS6 link protocol. This is unfortunately a requirement because if the fundamental problems in the IRC client protocol.
+
+Clients are expected to know information about:
+
+\begin{itemize}
+	\item Channels
+	\item Clients
+	\item Limited info about servers
+\end{itemize}
+
+All clients are identified by a unique identifier. Information about each client is broadcast in a \texttt{CLIENT} line that describes the client to the user. An example of such a \texttt{CLIENT} line is shown below, along with the format of it:
+
+\begin{verbatim}
+:<server id> CLIENT <nick> <ident>
+  <display host> <uid>
+  <account name or *> 
+  <* if staff, C if not> <timestamp> 
+  :<real name>
+\end{verbatim}
+
+or for a more real world example:
+
+\begin{verbatim}
+:420 CLIENT Xena xena yolo-swag.com
+  420AAAAAB Xena * 1234567890
+  :Xena
+\end{verbatim}
+
+RFC 1459 \texttt{MODE} will be broken up into 4 separate commands, \texttt{PROP}, \texttt{STATUS}, \texttt{LIST}, and \texttt{UPROP}.
+
+\vspace{0.125in}
+
+\begin{tabular}{| l | l |}
+	Verb & Use \\
+    \hline
+    \texttt{PROP} & Set channel properties \\
+    \texttt{STATUS} & Change rank of clients in a channel \\
+    \texttt{LIST} & Change channel lists, such as the \\
+                  & list of banned users \\
+    \texttt{UPROP} & Change user proprerties (analogous to \\
+                   & RFC 1459 user modes) \\
+\end{tabular}
+
+There are many other benefits to this new protocol; \texttt{account-notify}, \texttt{away-notify}, \texttt{multi-prefix} and other simple IRCv3 client capabilities will be core parts of the protocol and parsing them will be required to avoid fragmentation.
+
+Registering a connection with the IRC daemon is now also a lot less stateful and will require only one command from a client instead of two as RFC 1459 mandates.
+
+If a user gets a private message or notice from a client it doesn't previously knowledge about (services, random messages, etc) it must send a \texttt{CLINFO} line to the server requesting information on the client as identified by its UID.
+
+Because the users are all identified by their UID and the UID is made up of the Server ID plus a unique number (constantly incrementing), a netsplit can be broadcast to clients only in the form of a server ID quitting. This will also save a lot of bandwidth as netsplit quit messages can get costly quick. It would be:
+
+\begin{verbatim}
+:420 NETSPLIT 450 :*.net *.split
+\end{verbatim}
+
+instead of sending something like this for every client lost in the split:
+
+\begin{verbatim}
+:Tekner!user@legendsofequestria.com
+  QUIT :*.net *.split
+\end{verbatim}
+
 \subsection{Cod}
 
 Cod is an extended services package for IRC networks using TS6 family IRC daemons. It is designed to be very modular, allowing some networks to only enable what they will need, but also to handle some things normally handled by channel bots. This works symbiotically with Elemental-IRCd.
