@@ -112,6 +112,26 @@ At one point I wrote up something to the Full-Disclosure mailing list about a bu
 
 When writing Cod I wrote a custom IRC line parser. After realizing it would be useful in my other projects, I packaged it up in the cheese shop. You can install it with \texttt{pip install ircmess} or see more information about it here: https://github.com/lyska/ircmess
 
+\subsection{Tetra}
+
+Tetra is the next generation of Cod. I have thrown around rewriting Cod several times to fix a lot of the design and core issues with it that I had not realized until far far too late as well as write it to be more parallel than the previous iteration. The core of Tetra is in Go and the scripts are all written in either Lua or Moonscript. It also keeps statistics and does some other, more experimental things like Bayesian spam filtering.
+
+Tetra is not yet mature enough to be used in production, but given time (and a few iterations on the core design) it will be. I have documentation written as I am developing but a fair bit of the core needs to be separated out into discrete modules to allow for tests to be written.
+
+You can find out more about Tetra by visiting http://github.com/Xe/Tetra.
+
+\section{Devops}
+
+\subsection{OpDemand}
+
+For a while I had worked under the excellent folks at OpDemand on their flagship product Deis, a Heroku-like PaaS backed by CoreOS, Docker and etcd. Here I learned a lot about scalable systems design as well as maintence programming on a polyglot project.
+
+\subsection{Personal}
+
+I maintain a personal fork of Dokku, Progrium's single server PaaS that I use on my Singapore DO node \textit{dokku.xeserv.us}. I use this for various personal projects or other things that need a home that I can easily set up and forget about.
+
+I also do production operations for a variety of personal projects, one of which is the ShadowNET Internet Relay Chat network. This network was set up as a test network for Elemental-IRCd, Cod and Tetra and has become a home of a tight-knit group of my friends.
+
 \section{Testing}
 
 \subsection{Microsoft}
