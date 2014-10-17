@@ -1,0 +1,201 @@
+{
+	"basics": {
+		"name": "Sam Dodrill",
+		"label": "Python Dev / Scalable Linux Systems Administrator",
+		"email": "sam@dodrill.net",
+		"phone": "425.221.7761",
+		"summary": "Sam is a Python and Go programmer and a capable Linux Systems Administrator. His current specialty is in managing the creation and usage of dynamically scaling cluster computing systems using CoreOS and Fleet.",
+		"location": {
+			"countryCode": "US"
+		},
+		"profiles": [
+		{
+			"network": "Github",
+			"username": "Xe",
+			"url": "http://github.com/Xe"
+		},
+		{
+			"network": "Bitbucket",
+			"username": "Niichan",
+			"url": "http://bitbucket.org/niichan"
+		},
+		{
+			"network": "LinkedIn",
+			"url": "https://www.linkedin.com/profile/view?id=259656891"
+		}
+		]
+	},
+	"work": [
+	{
+		"company": "Crowdflower",
+		"position": "Deis Consultant",
+		"website": "http://crowdflower.com",
+		"startDate": "2014-09-10",
+		"summary": "Crowdflower is a company that uses crowdsourcing to have its customers submit tasks to be done, similar to Amazon's Mechanical Turk. CrowdFlower has over 50 labor channel partners, and its network has more than 5 million contributors worldwide.",
+		"highlights": [
+			"Research and development on scalable Linux deployments via CoreOS and Docker",
+		"Development of in-house tools to speed instance creation"
+			]
+	},
+	{
+		"company": "OpDemand",
+		"position": "Software Engineering Intern",
+		"website": "http://opdemand.com",
+		"startDate": "2014-07-14",
+		"endDate": "2014-08-27",
+		"summary": "OpDemand is the company behind the open source project Deis, a distributed platform-as-a-service (PaaS) designed from the ground up to emulate Heroku but on privately owned servers.",
+		"highlights": [
+			"Built new base image for Deis components",
+		"Research and development on a new builder component"
+			]
+	},
+	{
+		"company": "Symplicity",
+		"position": "Junior Systems Administrator",
+		"website": "http://symplicity.com",
+		"startDate": "2013-10-30",
+		"endDate": "2014-01-04",
+		"summary": "Symplicity specializes in database driven, web-based applications, enterprise information systems architecture and development, network design and management, systems and software engineering, network integration and management, information security and enterprise systems management.",
+		"highlights": [
+			"Research on a new distributed taskrunner using Celery",
+		"Creation of a tool to automate server provisioning",
+		"CentOS administration"
+			]
+	},
+	{
+		"company": "Volt",
+		"position": "Quality Assurance",
+		"website": "http://www.volt.com/",
+		"startDate": "2012-06-18",
+		"endDate": "2013-09-20",
+		"summary": "Volt is a temporary workforce solution for larger companies to get temporary workers for a given task. Sam's contract was manual hardware QA testing of the Xbox line of consoles. Not much more can be said due to the Non-Disclosure Agreement.",
+		"highlights": []
+	},
+	{
+		"company": "Eastern Washington University",
+		"position": "Paper Grader",
+		"website": "http://ewu.edu",
+		"startDate": "2012-10-03",
+		"endDate": "2012-12-15",
+		"summary": "Graded assignments for the introductory class in Python programming. Also helped teach the students that were struggling with the course material and attended study sessions.",
+		"highlights": []
+	}
+	],
+		"volunteer": [
+		{
+			"organization": "Bravery Blue Media, LLC",
+			"position": "On-Site Technician",
+			"website": "http://bravelyblue.com/",
+			"startDate": "2014-07-03",
+			"summary": "Bravery Blue is an independent company dedicated to filming and streaming convention panels and concerts for people who cannot attend them. All recorded videos are archived on YouTube for convention staff or the general public to watch freely.",
+			"highlights": [
+				"Managed a live audio/video stream of a music performance at a convention",
+			"Filmed interviews with celebrities"
+				]
+		}
+	],
+		"education": [],
+		"awards": [],
+		"publications": [
+		{
+			"name": "Cod",
+			"publisher": "",
+			"releaseDate": "",
+			"website": "http://github.com/cod-services/cod",
+			"summary": "Cod is an open source Python-based platform for IRC networks to create custom services that interact at the network level. It is designed to be easy to use and offer features that both administrators and end users will appreciate."
+		},
+		{
+			"name": "Elemental-IRCd",
+			"publisher": "",
+			"releaseDate": "",
+			"website": "http://github.com/elemental-ircd/elemental-ircd",
+			"summary": "Elemental-IRCd is a high performance, lightweight, and scalable IRC daemon. It is a fork of the now-defunct ShadowIRCD and seeks to continue in the direction ShadowIRCD was headed."
+		}
+	],
+		"skills": [
+		{
+			"name": "Python",
+			"level": "Expert",
+			"keywords": []
+		},
+		{
+			"name": "Git",
+			"level": "Expert",
+			"keywords": []
+		},
+		{
+			"name": "Docker",
+			"level": "Expert",
+			"keywords": []
+		},
+		{
+			"name": "CoreOS",
+			"level": "Expert",
+			"keywords": []
+		},
+		{
+			"name": "Cloud Computing",
+			"level": "Master",
+			"keywords": [
+				"AWS administration",
+			"GCE"
+				]
+		},
+		{
+			"name": "Linux Administration",
+			"level": "Expert",
+			"keywords": [
+				"Ubuntu",
+			"Gentoo",
+			"Debian",
+			"CentOS"
+				]
+		}
+	],
+		"languages": [
+		{
+			"language": "Python",
+			"fluency": "Expert"
+		},
+		{
+			"language": "Go",
+			"fluency": "Expert"
+		},
+		{
+			"language": "C",
+			"fluency": "Proficient"
+		},
+		{
+			"language": "Shell script",
+			"fluency": "Expert"
+		}
+	],
+		"interests": [
+		{
+			"name": "Distributed Systems",
+			"keywords": [
+				"CoreOS",
+			"Docker"
+				]
+		},
+		{
+			"name": "Computer Art (2d/vector)"
+		},
+		{
+			"name": "Computer Animation",
+			"keywords": [
+				"Flash"
+				]
+		},
+		{
+			"name": "Video Games"
+		}
+
+	],
+		"references": [
+		{
+			"name": "Gabriel Monroy",
+			"reference": "Sam is an extremely talented programmer with a deep understanding of operating systems and networking. During his internship at OpDemand, Sam completed important R&D tasks related to our Docker-based PaaS solution. Sam's work ethic and fluency in C/Go make him an ideal candidate for challenging, low-level systems programming projects."
+		}
+	]
+}
