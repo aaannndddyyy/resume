@@ -1,9 +1,9 @@
 {
 	"basics": {
 		"name": "Sam Dodrill",
-		"label": "Python Dev / Scalable Linux Systems Administrator",
+		"label": "Python Gopher / Scalable Linux Systems Administrator",
 		"email": "sam@dodrill.net",
-		"phone": "425.221.7761",
+		"phone": "+1 425.221.7761",
 		"summary": "Sam is a Python and Go programmer and a capable Linux Systems Administrator. His current specialty is in managing the creation and usage of dynamically scaling cluster computing systems using CoreOS and Fleet.",
 		"location": {
 			"countryCode": "US"
@@ -28,14 +28,16 @@
 	"work": [
 	{
 		"company": "Crowdflower",
-		"position": "Deis Consultant",
+		"position": "Deis Consultant (Contract)",
 		"website": "http://crowdflower.com",
 		"startDate": "2014-09-10",
+		"endDate": "2014-10-15",
 		"summary": "Crowdflower is a company that uses crowdsourcing to have its customers submit tasks to be done, similar to Amazon's Mechanical Turk. CrowdFlower has over 50 labor channel partners, and its network has more than 5 million contributors worldwide.",
 		"highlights": [
 			"Research and development on scalable Linux deployments via CoreOS and Docker",
-		"Development of in-house tools to speed instance creation"
-			]
+			"Development of in-house tools to speed instance creation",
+			"Laid groundwork on the creation and use of better tools for managing large clusters of CoreOS and Fleet machines"
+		]
 	},
 	{
 		"company": "OpDemand",
@@ -83,11 +85,11 @@
 	],
 		"volunteer": [
 		{
-			"organization": "Bravery Blue Media, LLC",
+			"organization": "Bravely Blue Media, LLC",
 			"position": "On-Site Technician",
 			"website": "http://bravelyblue.com/",
 			"startDate": "2014-07-03",
-			"summary": "Bravery Blue is an independent company dedicated to filming and streaming convention panels and concerts for people who cannot attend them. All recorded videos are archived on YouTube for convention staff or the general public to watch freely.",
+			"summary": "Bravely Blue is an independent company dedicated to filming and streaming convention panels and concerts for people who cannot attend them. All recorded videos are archived on YouTube for convention staff or the general public to watch freely.",
 			"highlights": [
 				"Managed a live audio/video stream of a music performance at a convention",
 			"Filmed interviews with celebrities"
@@ -110,6 +112,20 @@
 			"releaseDate": "",
 			"website": "http://github.com/elemental-ircd/elemental-ircd",
 			"summary": "Elemental-IRCd is a high performance, lightweight, and scalable IRC daemon. It is a fork of the now-defunct ShadowIRCD and seeks to continue in the direction ShadowIRCD was headed."
+		},
+		{
+			"name": "Tetra",
+			"publisher": "",
+			"releaseDate": "",
+			"website": "http://github.com/Xe/Tetra",
+			"summary": "Tetra is a rewrite of Cod from the ground up using Lua and Moonscript for extensions while having the core be in Go."
+		},
+		{
+			"name": "One-click IRC Network With Panamax",
+			"publisher": "Medium",
+			"releaseDate": "09-18-2014",
+			"website": "http://s.jdxrh.cf/1y0hOe1",
+			"summary": "An award-winning blog post on using Panamax by CenturyLink labs to manage the backing services needed for a simple IRC network for testing."
 		}
 	],
 		"skills": [
@@ -196,6 +212,9 @@
 		{
 			"name": "Gabriel Monroy",
 			"reference": "Sam is an extremely talented programmer with a deep understanding of operating systems and networking. During his internship at OpDemand, Sam completed important R&D tasks related to our Docker-based PaaS solution. Sam's work ethic and fluency in C/Go make him an ideal candidate for challenging, low-level systems programming projects."
+		},
+		{
+			"name": "Ian Blenke"
 		}
 	]
 }
