@@ -100,6 +100,13 @@
 		"awards": [],
 		"publications": [
 		{
+			"name": "Flitter",
+			"publisher": "",
+			"releaseDate": "",
+			"website": "http://github.com/Xe/flitter",
+			"summary": "Flitter was an experiment in building a simpler docker image builder with a git push deployment model that has evolved into its own full-fledged Platform-As-A-Service. It uses a pure Docker workflow and is right now is pre-alpha software. Parts of its design are based off the design of similar projects, but it strives to be as original as possible."
+		},
+		{
 			"name": "Cod",
 			"publisher": "",
 			"releaseDate": "",
