@@ -36,6 +36,17 @@
 			"Started groundwork for a dynamically scalable infrastructure on a project for helping the blind see things"
 		]
 	},
+		{
+			"company": "Bravely Blue Media, LLC",
+			"position": "On-Site Technician",
+			"website": "http://bravelyblue.com/",
+			"startDate": "2014-07-03",
+			"summary": "Bravely Blue is an independent company dedicated to filming and streaming convention panels and concerts for people who cannot attend them. All recorded videos are archived on YouTube for convention staff or the general public to watch freely.",
+			"highlights": [
+				"Managed a live audio/video stream of a music performance at a convention",
+			"Filmed interviews with celebrities"
+				]
+		},
 	{
 		"company": "Crowdflower",
 		"position": "Deis Consultant (Contract)",
@@ -93,19 +104,7 @@
 		"highlights": []
 	}
 	],
-		"volunteer": [
-		{
-			"organization": "Bravely Blue Media, LLC",
-			"position": "On-Site Technician",
-			"website": "http://bravelyblue.com/",
-			"startDate": "2014-07-03",
-			"summary": "Bravely Blue is an independent company dedicated to filming and streaming convention panels and concerts for people who cannot attend them. All recorded videos are archived on YouTube for convention staff or the general public to watch freely.",
-			"highlights": [
-				"Managed a live audio/video stream of a music performance at a convention",
-			"Filmed interviews with celebrities"
-				]
-		}
-	],
+		"volunteer": [],
 		"education": [],
 		"awards": [],
 		"publications": [
