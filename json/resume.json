@@ -227,10 +227,6 @@
 	],
 		"references": [
 		{
-			"name": "Gabriel Monroy",
-			"reference": "Sam is an extremely talented programmer with a deep understanding of operating systems and networking. During his internship at OpDemand, Sam completed important R&D tasks related to our Docker-based PaaS solution. Sam's work ethic and fluency in C/Go make him an ideal candidate for challenging, low-level systems programming projects."
-		},
-		{
 			"name": "Ian Blenke"
 		}
 	]
