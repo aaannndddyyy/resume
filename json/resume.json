@@ -4,7 +4,7 @@
 		"label": "Python Gopher / Scalable Linux Systems Administrator",
 		"email": "sam@dodrill.net",
 		"phone": "+1 425.221.7761",
-		"summary": "Sam is a Python and Go programmer and a capable Linux Systems Administrator. His current specialty is in managing the creation and usage of dynamically scaling cluster computing systems using CoreOS and Fleet.",
+		"summary": "Sam is a Python and Go programmer and a capable Linux Systems Administrator. Their current specialty is in managing the creation and usage of dynamically scaling cluster computing systems using CoreOS and Fleet.",
 		"location": {
 			"countryCode": "US"
 		},
@@ -226,8 +226,5 @@
 
 	],
 		"references": [
-		{
-			"name": "Ian Blenke"
-		}
 	]
 }
