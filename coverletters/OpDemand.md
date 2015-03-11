@@ -1,6 +1,6 @@
 Hello,
 
-My name is Sam Dodrill and I would like to apply for your open position as 
+My name is Christine Dodrill and I would like to apply for your open position as 
 a Linux Intern in Enterprise PaaS. I have been following Docker passively for 
 a while now, but what sold me on it and what has made it part of my daily 
 workflow was a few tools I had made on top of docker.
@@ -43,6 +43,6 @@ make it better and easier to use.
 Thank you for considering me for this position and I hope to hear back from you 
 soon.
 
-Sam Dodrill
+Christine Dodrill
 +1 425 221 7761
 sam@dodrill.net

@@ -1,6 +1,6 @@
 Hello,
 
-My name is Sam Dodrill and I would like to apply for your open position as a Linux Engineer for your company.  I currently help maintain and administrate an IRC network ranking in NetSplit.de's top 100 list of networks that runs mostly on AWS and internally uses a lot of Amazon tools and workflows.  We currently have near zero downtime and have a lot of monitoring systems in place to notify us within seconds in case of attacks or other rare downtime events.  I am an avid scripter, favoring scripting together existing tools instead of developing monolithic new tools to do a job.
+My name is Christine Dodrill and I would like to apply for your open position as a Linux Engineer for your company.  I currently help maintain and administrate an IRC network ranking in NetSplit.de's top 100 list of networks that runs mostly on AWS and internally uses a lot of Amazon tools and workflows.  We currently have near zero downtime and have a lot of monitoring systems in place to notify us within seconds in case of attacks or other rare downtime events.  I am an avid scripter, favoring scripting together existing tools instead of developing monolithic new tools to do a job.
 
 I mostly have been using shell scripting recently, mainly for a tool I am still planning out that would be like Puppet or Chef, but I would do it on my own so I can better understand how tools like that work.  I have written initscripts and deployed custom system services using them. I also am a package maintainer for a few packages in Alpine Linux, namely Tor, ShadowIRCD and ii.
 
@@ -12,6 +12,6 @@ Thank you for reading this and considering my application, my resume is attached
 
 Have a good day,
 
-Sam Dodrill
+Christine Dodrill
 +1 425 221 7761
 sam@dodrill.net
