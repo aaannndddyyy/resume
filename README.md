@@ -1,6 +1,12 @@
 My Resume
 =========
 
+# This is out of date
+
+See https://christine.website/resume for a better version
+
+---
+
 My resume in LaTeX.
 
 Requires the Ubuntu font LaTeX package, provided as a submodule.
